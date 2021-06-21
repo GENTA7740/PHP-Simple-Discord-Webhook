@@ -1,14 +1,14 @@
 <?php
-$webhookurl = "https://discord.com/api/webhooks/856409270585131008/i_zPpuqPE02LaURtpxVVdjXksYoyhah_XVA0n6ouJQkbCA537medzFQYWEeOH77uqGr6";
+$webhookurl = "YOUR_WEBHOOK_URL";
 $feedback = $_POST['Message'];
 $username = $_POST['Username'];
 $timestamp = date('h:i:s');
 $json_data = json_encode([
     "content" => "".$feedback."\n",
     "username" => $username,
-    //"avatar_url" => "https://ru.gravatar.com/userimage/28503754/1168e2bddca84fec2a63addb348c571d.jpg?size=512",
+    //"avatar_url" => "", //URL Avatar for your webhook
     "tts" => false,
-    // "file" => "",
+    // "file" => "", 
 ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
 
 

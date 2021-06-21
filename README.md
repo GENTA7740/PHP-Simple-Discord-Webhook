@@ -1,5 +1,5 @@
 # PHP-Simple-Discord-Webhook
-Just Simple discord webhook
+Just Simple discord webhook using php
 
 
 Don't ask how to use it :)

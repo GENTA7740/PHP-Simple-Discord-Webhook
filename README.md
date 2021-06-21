@@ -2,7 +2,7 @@
 Just Simple discord webhook
 
 
-Don't asking how to use it :)
+Don't ask how to use it :)
 
 Discord : GENTA7740#7740
 
